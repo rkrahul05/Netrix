@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html,body{
+    position: relative;
+}
+body{
+    overflow-y: auto;
+    /* background-color: #414348;
+background-image: linear-gradient(62deg, #414348 0%, #c3d6fc 100%); */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+url("../assests/IMG_20210906_WA0017.webp");
+
+}
+.menu{
+   padding-left: 28rem;
+   padding-top: 4rem;
+}
+.logo{
+    height: 5rem;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type:square;
+}
+/* ul.item-list{
+    list-style-type: none;
+} */
+/* .list-div{
+}
+.list-item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: flex-end;
+} */
+/* d-flex flex-lg-row-reverse justify-content-lg-start p-4  */
+.list1{
+    /* display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    justify-items:baseline;
+    padding-right: 2rem; */
+}
+.navText{
+    color: #8b142a;
+}
+.outter{
+    padding-top: 0.25rem;
+    padding-bottom:0.25rem ;
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    height: 25rem;
+    
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+   
+
+}
+.first-coloumn{
+   overflow: hidden;
+}
+.heroImg{
+    height: 25rem;
+    width: 100%;
+    object-fit:cover;
+}
+.r1{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    height: 12.5rem;
+    margin-left: 0.25rem;
+    
+    
+}
+.navBar{
+    /* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+.footer-sections{
+ background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+.second-coloumn {
+    display: flex;
+    flex-direction: column;
+}
+.services{
+    width: auto;
+    height: 10rem;
+    padding-left: 0.75rem;
+    margin-top: 1rem;
+    margin-left: 0.23rem;
+    margin-right: 0.23rem;
+    background-color: rgb(80, 150, 211);
+}
+
+.footer-item{
+    margin-bottom: 0.2rem;
+}
+
+.additional-footer{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 0..25rem 0.25rem; */
+  padding: 0px;
+  color:white;
+}
+.footer-styles{
+    padding-top: 0px;
+    padding-bottom:0rem ;
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin-bottom: 15px; */
+   
+    overflow: hidden;
+   
+}
+
+/* Contact us CSS */
+.contact-us{
+    height: 28rem;
+    width: 100%;
+    overflow:auto;
+}
+.centering{
+    padding-top: 0px;
+    padding-bottom:0rem ;
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.formStyle{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.service{
+    padding-top: 0px;
+    padding-bottom:0rem ;
+    margin-left: 0.0rem;
+    margin-right: 0.0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    
+    padding-right: 0px;
+    padding-left: 0px;
+    /* margin-bottom: 15px; */
+   
+    overflow: hidden;
+}
+.right-col{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+.left-col{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+}
+.middle-col{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+ 
+}
+.service-img{
+    width:100%; 
+    height:7rem ;
+    border-radius: 10px;
+    margin: 1px;
+    overflow: hidden;
+}
+.heading{
+    padding-top:0.2rem ;
+    padding-left: 1.25rem;
+    padding-bottom:0.1rem ;
+    margin-top: 0.25rem;
+    background-color:#9FACE6;
+    border-radius: 10px;
+    width: 100%;
+}
